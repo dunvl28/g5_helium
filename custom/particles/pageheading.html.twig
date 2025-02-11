@@ -1,0 +1,11 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+<h1 class="pageheading {{ particle.css.class }}"
+        {% if(particle.image) %}
+            style="background-image: url('{{ url(particle.image)|e }}')"
+        {% endif %}
+    >
+    {{ gantry.page_heading.getPageHeading() }}
+</h1>
+{% endblock %}

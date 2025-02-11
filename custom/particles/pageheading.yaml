@@ -1,0 +1,14 @@
+enabled: '1'
+name: 'Page Heading'
+owner: 'Thomas Nguyen'
+additional:
+  text: 'Developed by ThomasNguyen <br />for Gantry 5.'
+icon: 'fa-header'
+css:
+  class: ''
+form:
+  fields:
+    .image:
+      type: input.imagepicker
+      label: Image
+      description: Select desired image for background.
